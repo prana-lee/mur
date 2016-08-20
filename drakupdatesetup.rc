@@ -1,0 +1,4 @@
+NAME="Mandrake Update Robot Setup"
+DESC="Mandrake Update Robot (MUR) is an automatic security and bugfixes update service that runs periodically under cron scheduler daemon. This software is designed to ease the security administration of a large corporate network, and can also be used by ADSL/cable modem users. With MUR, you don't have to worry about missing any updates for security vulnerabilities so that you can be sure that your server is safe from malicious crackers with 0-day exploit. Also, if there is a kernel upgrade or vice versa, it will automatically recompile your custom kernel for you. After doing its job, MUR will e-mail you and give you a summary report of the upgrade. Note: MUR is not designed for users with 56K modem dial-up connection"
+PROGRAM="/usr/sbin/drakupdatesetup-DrakConf"
+ICON_NAME="drakupdatesetup.xpm"

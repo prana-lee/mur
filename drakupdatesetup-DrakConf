@@ -1,0 +1,42 @@
+#!/bin/sh
+#/*****************************************************************************
+#/*  Shell script for Mandrake Update Robot Setup Wizard under DrakConf       *
+#/*  Copyright (C) 2001 Prana <pranalukas@gmx.de>                             *
+#/*  http://www.cyest.org                                                     *
+#/*                                                                           *
+#/*  This program is free software; you can redistribute it and/or modify     *
+#/*  it under the terms of the GNU General Public License as published by     *
+#/*  the Free Software Foundation; either version 2 of the License, or        *
+#/*  (at your option) any later version.                                      *
+#/*                                                                           *
+#/*  This program is distributed in the hope that it will be useful,          *
+#/*  but WITHOUT ANY WARRANTY; without even the implied warranty of           *
+#/*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the            *
+#/*  GNU General Public License for more details.                             *
+#/*                                                                           *
+#/*  You should have received a copy of the GNU General Public License        *
+#/*  along with this program; if not, write to the Free Software              *
+#/*  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111 USA      *
+#/*****************************************************************************/
+
+# Gnome
+if test -f /usr/bin/gnome-terminal
+ then
+   /usr/bin/gnome-terminal -e /usr/sbin/drakupdatesetup
+# KDE
+elif test -f /usr/bin/konsole
+ then
+   /usr/bin/konsole -e /usr/sbin/drakupdatesetup
+# Enlightenment
+elif test -f /usr/X11R6/bin/Eterm
+ then
+   /usr/X11R6/bin/Eterm -e /usr/sbin/drakupdatesetup
+# xterm
+elif test -f /usr/X11R6/bin/xterm
+ then
+   /usr/X11R6/bin/xterm -e /usr/sbin/drakupdatesetup
+# Rxvt
+elif test -f /usr/X11R6/bin/rxvt
+ then
+   /usr/X11R6/bin/rxvt -e /usr/sbin/drakupdatesetup
+fi

@@ -1,0 +1,3 @@
+To install it, just type "make" and "make install"
+To run it manually, type "drakupdaterobot" from the command prompt
+To run it on a periodic basis, put an entry in /etc/cron.daily

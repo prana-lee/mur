@@ -1,0 +1,2 @@
+#!/bin/sh
+if [ -f /etc/drakupdatetxt.conf ]; then drakupdaterobot; fi
