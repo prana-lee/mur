@@ -1,7 +1,7 @@
 #/*****************************************************************************
 #/*  Makefile for Mandrake Update Robot (daemon for crontab)                  *
-#/*  Copyright (C) 2001 Prana <pranalukas@gmx.de>                             *
-#/*  http://www.cyest.org                                                     *
+#/*  Copyright (C) 2001 Prana                             *
+#/*                                                       *
 #/*                                                                           *
 #/*  This program is free software; you can redistribute it and/or modify     *
 #/*  it under the terms of the GNU General Public License as published by     *
